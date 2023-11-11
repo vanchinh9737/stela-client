@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding: 5;
+}
+
+body {
+	font-family: Cambria;
+	font-size: 1em;
+	font-weight: 800;
+	line-height: 1;
+	color:black;
+	background-color: whitesmoke;
+}
+
+header {
+	text-align: center;
+	padding: 20px 0;
+	color: red;
+	background-color: orange;
+}
+
+.container {
+	min-height: 80vh;
+	display:  flex;
+}
+
+aside {
+	text-align: center;
+	padding: 10px 20px;
+
+}
+
+.menu {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	position: sticky;
+	top: 10px;
+}
+
+.vr {
+	width: 2px;
+	background-color: brown;
+}
+
+main {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	text-align: center;
+	padding: 16px 0;
+	color:yellowgreen;
+	background-color: blue;
+}
